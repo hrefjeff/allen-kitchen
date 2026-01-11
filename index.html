@@ -15,9 +15,17 @@
         <div class="hero-content">
             <h1>Welcome to the Allen Kitchen</h1>
             <p>An Online Cookbook Dedicated to Family</p>
-            <button id="cta-btn">View Today's Specials</button>
+            <button id="cta-btn">Generate idea for this week's dinner</button>
         </div>
     </header>
+
+    <dialog id="meal-dialog" aria-labelledby="meal-dialog-title">
+        <h3 id="meal-dialog-title">Dinner idea</h3>
+        <p id="meal-dialog-text"></p>
+        <form method="dialog">
+            <button>Close</button>
+        </form>
+    </dialog>
 
     <section id="menu" class="menu-section">
         <h2>Curated For You</h2>
